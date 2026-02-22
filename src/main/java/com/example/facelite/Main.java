@@ -6,7 +6,6 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -20,7 +19,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 import java.util.ArrayList;
-import java.util.Collection;
+
 
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
@@ -51,7 +50,6 @@ public class Main extends Application {
     Label userName = new Label();
     Label lFriends = new Label();
     Label lFriendsList = new Label();
-    VBox vPosts = new VBox();
     ScrollPane spFriendsList = new ScrollPane();
     ScrollPane spMassages = new ScrollPane();
     ScrollPane spPosts = new ScrollPane();
@@ -218,7 +216,7 @@ public class Main extends Application {
         stage.setTitle("FaceLife");
         stage.show();
         //communityPane
-        Button btBack = new Button("Back");
+
         //postBar
         TextField tfPost = new TextField("write something...");
         Button btPost = new Button("post");
