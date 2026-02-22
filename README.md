@@ -4,7 +4,7 @@ FaceLite is javeFX application that aim to simulate a social media enviroment
 
 ## Demo
 
-![App demo](assets/demo.gif)
+![App demo](Demo/FaceliteDemo.gif)
 
 ## Installation
 
