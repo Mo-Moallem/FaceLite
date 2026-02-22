@@ -620,7 +620,7 @@ public class Main extends Application {
 
             @Override
             public void handle(ActionEvent actionEvent) {
-                post("F",tfPost.getText());
+                post(users.get(findCurrentProfileIndex()).getName() + ":",tfPost.getText());
             }
         };
         btPost.setOnAction(handlePostAction);
